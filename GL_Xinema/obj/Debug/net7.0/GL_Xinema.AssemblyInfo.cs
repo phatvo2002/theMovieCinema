@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("GL_Xinema")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+422c7c570f35dcd14ce0014687f6bf5f84f27e88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a182101c3c11869c2d17347f23a42db347046c46")]
 [assembly: System.Reflection.AssemblyProductAttribute("GL_Xinema")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GL_Xinema")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

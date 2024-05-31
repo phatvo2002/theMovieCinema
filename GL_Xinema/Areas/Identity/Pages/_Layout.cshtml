@@ -1,0 +1,44 @@
+﻿@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<div class="container-fluid" style="margin-bottom:10%;border:none;height:900px;">
+    <div class="row justify-content-center">
+        <div class="col-md-12 mt-5">
+            <div class="card login-logout-card">
+                <div class="" style="">
+                    <ul class="nav  justify-content-center " >
+                        <li class=" text-center lh-sm p-2  ">
+                          @*   <img src="~/image/logo.png" style="width:60px;border-radius:50%;"/>
+                            <a class=" text-decoration-none text-black fs-4 fw-bold " href="/Identity/Account/Login">Cinema Galaxy Admin</a> *@
+                        </li>
+                        @* <li class="nav-item text-center lh-sm p-2 text-black">
+                            <a class="text-decoration-none text-black fs-4 fw-bold text-white" href="/Identity/Account/Register">Đăng Kí</a>
+                        </li> *@
+                    </ul>
+                </div>
+                <div class="card-body layout_img">
+                    <div class="justify-content-center">
+                        <div class="col-12 my-4">
+                            @RenderBody()
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @await RenderSectionAsync("Scripts", required: false)
+    <script>
+        $(function () {
+            const currentPage = location.pathname;
+            $('.nav-tabs li a').each(function () {
+                const $this = $(this);
+                if (currentPage.toLowerCase().indexOf($this.attr('href').toLowerCase()) !== -1) {
+                    $this.addClass('active');
+                }
+            })
+        })
+    </script>
+}

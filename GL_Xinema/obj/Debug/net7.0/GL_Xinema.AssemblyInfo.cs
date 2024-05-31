@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GL_Xinema")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d8c583878b2cca70f94d0f0bef21d7dc8959f4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+433e24fdfc3550d02b6134d5dea0f5e81ba32738")]
 [assembly: System.Reflection.AssemblyProductAttribute("GL_Xinema")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GL_Xinema")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

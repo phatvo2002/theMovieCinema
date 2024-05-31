@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using GL_Xinema.Data;
 using GL_Xinema.Areas.Identity.Data;
@@ -30,8 +30,16 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
+
 	name: "default",
 	pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapGet("/", context =>
+{
+    context.Response.Redirect("/Identity/Account/Login");
+    return Task.CompletedTask;
+});
+
 
 app.MapRazorPages();
 app.Run();

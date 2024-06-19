@@ -5,8 +5,164 @@
       "PackagePath": "staticwebassets\\GL_Xinema.bundle.scp.css"
     },
     {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\favicon.png"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\fonts\\MaterialIcons-Outlined.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\MaterialIcons-Outlined.woff"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\fonts\\MaterialIcons-Outlined.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\MaterialIcons-Outlined.woff2"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\MaterialIcons-Regular.woff"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\MaterialIcons-Regular.woff2"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\fonts\\OpenSans-Bold.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\OpenSans-Bold.woff"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\fonts\\OpenSans-Bold.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\OpenSans-Bold.woff2"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\fonts\\OpenSans-Light.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\OpenSans-Light.woff"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\fonts\\OpenSans-Light.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\OpenSans-Light.woff2"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\fonts\\OpenSans-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\OpenSans-Regular.woff"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\fonts\\OpenSans-Regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\OpenSans-Regular.woff2"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\fonts\\OpenSans-SemiBold.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\OpenSans-SemiBold.woff"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\fonts\\OpenSans-SemiBold.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\OpenSans-SemiBold.woff2"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\image\\body-bg-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\body-bg-2.jpg"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\image\\credits.txt",
+      "PackagePath": "staticwebassets\\assets\\image\\credits.txt"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\image\\gallery\\credits.txt",
+      "PackagePath": "staticwebassets\\assets\\image\\gallery\\credits.txt"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\image\\profile-about.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\profile-about.jpg"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\image\\user.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\user.jpg"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\js\\README.md",
+      "PackagePath": "staticwebassets\\assets\\js\\README.md"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\js\\demo.js",
+      "PackagePath": "staticwebassets\\assets\\js\\demo.js"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\assets\\js\\demo.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\demo.min.js"
+    },
+    {
       "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\dist\\css\\ace-font.css",
+      "PackagePath": "staticwebassets\\dist\\css\\ace-font.css"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\dist\\css\\ace-font.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\ace-font.min.css"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\dist\\css\\ace-themes.css",
+      "PackagePath": "staticwebassets\\dist\\css\\ace-themes.css"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\dist\\css\\ace-themes.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\ace-themes.css.map"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\dist\\css\\ace-themes.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\ace-themes.min.css"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\dist\\css\\ace.css",
+      "PackagePath": "staticwebassets\\dist\\css\\ace.css"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\dist\\css\\ace.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\ace.css.map"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\dist\\css\\ace.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\ace.min.css"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\dist\\css\\rtl\\ace-themes.css",
+      "PackagePath": "staticwebassets\\dist\\css\\rtl\\ace-themes.css"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\dist\\css\\rtl\\ace-themes.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\rtl\\ace-themes.min.css"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\dist\\css\\rtl\\ace.css",
+      "PackagePath": "staticwebassets\\dist\\css\\rtl\\ace.css"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\dist\\css\\rtl\\ace.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\rtl\\ace.min.css"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\dist\\css\\rtl\\bootstrap.css",
+      "PackagePath": "staticwebassets\\dist\\css\\rtl\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\dist\\css\\rtl\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\rtl\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\dist\\js\\ace.js",
+      "PackagePath": "staticwebassets\\dist\\js\\ace.js"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\dist\\js\\ace.js.map",
+      "PackagePath": "staticwebassets\\dist\\js\\ace.js.map"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\dist\\js\\ace.min.js",
+      "PackagePath": "staticwebassets\\dist\\js\\ace.min.js"
+    },
+    {
+      "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\dist\\js\\ace.min.js.map",
+      "PackagePath": "staticwebassets\\dist\\js\\ace.min.js.map"
     },
     {
       "Id": "D:\\c# project\\GL_Xinema\\theMovieCinema\\GL_Xinema\\wwwroot\\favicon.ico",

@@ -75,9 +75,20 @@ namespace GL_Xinema.Areas.Identity.Pages.Account
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
+            /// 
+            [DataType(DataType.Text)]
             [Required]
-            [EmailAddress]
-            [Display(Name = "Email")]
+            [Display(Name = "First Name")]
+            public string FirstName { get; set; }
+
+            [DataType(DataType.Text)]
+            [Required]
+            [Display(Name = "Last Name")]
+            public string LastName { get; set; }
+
+
+            [Required]
+            [Display(Name = "User Name")]
             public string Email { get; set; }
 
             /// <summary>
@@ -109,12 +120,14 @@ namespace GL_Xinema.Areas.Identity.Pages.Account
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
-            returnUrl ??= Url.Content("~/");
+            returnUrl ??= Url.Content("~/home");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
+                
                 var user = CreateUser();
-
+                user.FirstName = Input.FirstName;
+                user.LastName = Input.LastName;
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, Input.Password);

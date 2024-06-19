@@ -7,12 +7,14 @@ var connectionString = builder.Configuration.GetConnectionString("GL_XinemaConte
 
 builder.Services.AddDbContext<GL_XinemaContext>(options => options.UseSqlServer(connectionString));
 
-builder.Services.AddDefaultIdentity<GL_XinemaUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<GL_XinemaContext>();
+builder.Services.AddDefaultIdentity<GL_XinemaUser>(options => options.SignIn.RequireConfirmedAccount = false).AddRoles<IdentityRole>().AddEntityFrameworkStores<GL_XinemaContext>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
